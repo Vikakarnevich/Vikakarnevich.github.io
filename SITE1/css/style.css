@@ -938,7 +938,7 @@ margin-top: 283%;
 
 .media {
     position: absolute;
-width: 30%;   
+width: 30%;    
 margin-left: 35%;  
 margin-top: 338%;  
 
@@ -1048,6 +1048,7 @@ margin-top: 334%;
 }
 
 @media (max-width: 1170px){
+   
     .text1{
         font-size: 3vw;
         
