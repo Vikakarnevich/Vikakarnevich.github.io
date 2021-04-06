@@ -1,7 +1,7 @@
 html{
     background-color: black;
     width: auto;
-    height: auto;
+    height: 500%;
 }
 body
 {
@@ -305,6 +305,7 @@ color: rgba(141, 11, 35, 0.88);
 
 
 
+
 /*Обнуление Путіна*/
 *,*:before,*:after{
 	padding: 0;
@@ -330,6 +331,7 @@ margin-top: 45%;
 	justify-content:center;
 	align-items: center;
     overflow: hidden;
+
 }
 
 }
@@ -609,9 +611,9 @@ section {
   background-image: url(../img/aline2.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 50%;
+  width: 30%;
   height: 17px;
-  margin-left: 65%;
+  margin-left: 70%;
   margin-top: 5%;
   position: absolute;
 
@@ -1006,6 +1008,7 @@ margin-top: 334%;
 }
 
 @media (max-width:1170px){
+    
    
     .menu {
         width: 100%;
@@ -1014,16 +1017,21 @@ margin-top: 334%;
         position: relative;
         height: 3vw;
     }
+    .wrapper{
+        height: 23vw;
+    }
 }
 
 @media (max-width: 1170px){
    .text {
         width: 100%;
+       margin-top: 8%; 
        margin-left: 13%;
         font-size: 8vw;
        line-height: 6vw;
     }
     .description{
+        margin-top: 21%;
         font-size: 3vw;
         line-height: 4vw;
     }
@@ -1093,18 +1101,6 @@ margin-top: 334%;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1170px){
     .bg{
         width: 100%;
@@ -1152,7 +1148,7 @@ margin-top: 334%;
     }
     .img{
         width: 65vw;
-        height: 35vw;
+        height: 45vw;
     }
 }
 
@@ -1160,6 +1156,159 @@ margin-top: 334%;
 
 
 
+* {
+  box-sizing: border-box;
+}
 
+a {
+  text-decoration: none;
+}
 
+#menu-burger {
+  width: 60px;
+  height: 60px;
+  background: rgba(141, 11, 35, 0.88);
+  border-radius: 50%;
+  position: fixed;
+  margin-top: -9%;
+  right: 5%;
+  cursor: pointer;
+  z-index: 200;
+}
 
+#menu-burger .menu-icon {
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -9px;
+  margin-top: -1px;
+}
+
+#menu-burger .menu-icon:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 18px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -9px;
+  margin-top: -5px;
+  transition: 0.35s;
+}
+
+#menu-burger .menu-icon:before {
+  content: ' ';
+  display: block;
+  height: 2px;
+  width: 18px;
+  background: #fff;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -9px;
+  margin-top: 4px;
+    transition: 0.35s;
+}
+
+#menu-burger .menu-icon.open:before{
+  transform: rotate(45deg);
+  margin-top: -1px;
+  background: #000;
+}
+
+#menu-burger .menu-icon.open:after{
+  transform: rotate(-45deg);
+  margin-top: -1px;
+  background: #000;
+}
+
+#menu-burger.open {
+  background: #fff;
+}
+
+#menu-burger .menu-icon.open {
+  background: #fff;
+}
+
+#overlay-menu {
+  position: fixed;
+  background: rgba(141, 11, 35, 0.88);
+  height: 100%;
+  width: 30%;
+  top: 0;
+  opacity: 0.85;
+  z-index: 100; 
+  right: -100%;
+  transition: 0.35s;
+}
+
+#overlay-menu.open {
+  right: 0%;
+}
+
+#overlay-menu nav {
+  height: 60%;
+  position: relative;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 32px;
+  text-align: center;
+}
+
+#overlay-menu nav ul {
+  display: inline-block;
+  margin: auto;
+  height: 100%;
+}
+
+#overlay-menu nav ul li {
+  position: relative;
+  color: #fff;
+  margin-bottom: 20px;
+    list-style-type: none
+}
+
+#overlay-menu nav ul li a {
+  color: #fff;
+   
+}
+
+#overlay-menu nav ul li a:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #fff;
+  transition: 0.25s;
+}
+
+#overlay-menu nav ul li a:hover:after {
+  width: 100%;
+}
+
+@media (min-width: 1170px){
+    #menu-burger{
+        display: none;
+    }
+}
+@media (max-width: 1170px){
+    .menu{
+        display: none;
+    }
+    #menu-burger{
+        display: inline-block;
+        width: 5vw;
+        height: 5vw;
+     
+    }
+}
