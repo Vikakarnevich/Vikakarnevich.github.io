@@ -742,6 +742,8 @@ h3 {
 }
 
 /* ..Кнопка */
+
+
 .bn {
     width: 25%;
     height: 30%;
@@ -785,7 +787,6 @@ border-radius: 40px;
     background: rgba(141, 11, 35, 0.88);
     border-radius: 100%;
 }
-
 
 /* ..Пазлы */
 
