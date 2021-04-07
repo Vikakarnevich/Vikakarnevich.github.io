@@ -1374,3 +1374,9 @@ height: 10%;
 right: 10px;
 bottom: 10px;
 }
+@media (max-width: 1170px){
+    .scrollup{
+        width: 10vw;
+        height: 10vw;
+    }
+}
