@@ -759,8 +759,9 @@ border-radius: 40px;
     z-index: 2;
     color: white;
     font-family: 'Play', sans-serif;
-    font-size: 230%
- 	appearance: button;
+    font-size: 230%;
+ 	-webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 .bn:focus,
