@@ -758,7 +758,8 @@ border-radius: 40px;
     color: white;
     font-family: 'Play', sans-serif;
     font-size: 230%
-
+-webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 .bn:focus,
