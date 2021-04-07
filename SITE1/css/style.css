@@ -760,9 +760,7 @@ border-radius: 40px;
     color: white;
     font-family: 'Play', sans-serif;
     font-size: 230%
-   -webkit-appearance: button; 
-      -moz-appearance: button; 
-      appearance: button; 
+ 
 }
 
 .bn:focus,
