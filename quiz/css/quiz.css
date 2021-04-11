@@ -493,6 +493,13 @@ main {
     margin: 10px auto;
     border: 20px solid rgba(255, 255, 255, 0.8);
 }
+@media (max-width: 1170px){
+    .result-img{
+        width: 50vw;
+    
+    }
+}
+
 
 .reload-button {
     display: block;
