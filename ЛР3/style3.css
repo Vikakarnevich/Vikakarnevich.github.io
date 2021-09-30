@@ -1,0 +1,22 @@
+.hh1{
+     font-size: 40px;
+   color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.academy_text{
+     font-size: 24px;
+   color: black;
+    text-align: center;
+}
+.image{
+    text-align: center;
+}
+.academy{
+    width: 800px;
+    height: 500px;
+}
+.autumn{
+    font-size: 24px;
+}

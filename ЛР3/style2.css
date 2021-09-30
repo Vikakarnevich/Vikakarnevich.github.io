@@ -1,0 +1,88 @@
+a{
+    text-decoration: none;
+    font-size: 20px;
+   color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.autumn{
+    position: absolute;
+    left: 50px;
+    top: 50px
+}
+.rectangle{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    background: white;
+    z-index: -1
+}
+.text{
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    width: 700px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+.rectangle1{
+    width: 730px;
+    height: 430px;
+    position: absolute;
+    left: 30px;
+    top: 205px;
+    background: white;
+    z-index: -1
+}
+
+.autumn1, .autumn2, .autumn3{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+}
+
+.autumn1{
+    top: 50px;
+    left: 800px;
+}
+.rectangle2{
+    width: 290px;
+    height: 360px;
+    position: absolute;
+    left: 779px;
+    top: 30px;
+    background: white;
+    z-index: -1
+}
+
+.autumn2{
+    top: 300px;
+    left: 1130px;
+}
+
+.rectangle3{
+    width: 290px;
+    height: 360px;
+    position: absolute;
+    left: 1110px;
+    top: 280px;
+    background: white;
+    z-index: -1
+}
+.autumn3{
+    top: 470px;
+    left: 800px;
+}
+
+.rectangle4{
+    width: 290px;
+    height: 360px;
+    position: absolute;
+    left: 779px;
+    top: 450px;
+    background: white;
+    z-index: -1
+}
