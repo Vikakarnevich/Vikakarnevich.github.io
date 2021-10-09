@@ -1,0 +1,81 @@
+/*font-family: 'Amatic SC', cursive;
+font-family: 'Raleway', sans-serif;
+#F6FBFF*/
+body{
+    background: #F6FBFF url(background.png);
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size: 96px;
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    top: 200px;
+    left: 770px;
+}
+.title1{
+    font-size: 30px;
+   font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 120px;
+    left: 700px;
+    width: 625px;
+    text-align: center;
+}
+.intro{
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    top: 650px;
+    left: 170px;
+}
+.intro1{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 650px;
+    left: 170px;
+    width: 830px;
+}
+
+
+.name{
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    position: relative;
+    top: 700px;
+    text-align: center;
+}
+.description{
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    top: 650px;
+    left: 310px;
+    text-align: center;
+    width: 800px;
+}
+.image{
+    width: 660px;
+    height: 350px;
+    position: relative;
+    top: 650px;
+    left: 385px;
+}
+.image1{
+    width: 505px;
+    height: 600px;
+    position: relative;
+    top: 650px;
+    left: 465px;
+}
+.image2{
+    width: 505px;
+    height: 600px;
+    position: relative;
+    top: 650px;
+    left: 465px;
+}
+
+
+
