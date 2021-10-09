@@ -1,0 +1,157 @@
+/*font-family: 'Cormorant', serif;
+font-family: 'EB Garamond', serif;*/
+body{
+    background: #2A1D14 url(background.png);
+         background-repeat: no-repeat;
+
+}
+
+.name{
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: white;
+    position: relative;
+    top: 180px;
+    left: 120px;
+}
+.desc{
+   font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: white;
+    width: 475px;
+    position: relative;
+    top: 100px;
+    left: 125px;
+}
+
+.zag{
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 600px;
+}
+.desc2{
+   font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 900px;
+    position: relative;
+    top: 550px;
+    left: 250px;
+}
+
+.image{
+    width: 420px;
+    height: 630px;
+    position: absolute;
+    top:1380px;
+    left: 150px;
+}
+
+.film{
+        font-family: 'Cormorant', serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    position: relative;
+    top: 580px;
+    left: 650px;
+}
+
+.year{
+       font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 540px;
+    left: 650px;
+}
+.desc3{
+     font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 550px;
+    left: 650px;
+    width: 630px;
+}
+
+
+.image2{
+    width: 420px;
+    height: 630px;
+    position: absolute;
+    top: 480px;
+    left: 780px;
+}
+
+.film2{
+        font-family: 'Cormorant', serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    position: relative;
+    top: 460px;
+    left: 70px;
+    width: 700px;
+}
+
+.year2{
+       font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 440px;
+    left: 70px;
+}
+.desc_2{
+     font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 440px;
+    left: 70px;
+    width: 630px;
+}
+
+
+.image3{
+    width: 420px;
+    height: 630px;
+    position: absolute;
+    top: 620px;
+    left: -200px;
+}
+
+.film3{
+        font-family: 'Cormorant', serif;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    position: relative;
+    top: 605px;
+    left: 330px;
+}
+
+.year3{
+       font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 560px;
+    left: 330px;
+}
+.desc_3{
+     font-family: 'EB Garamond', serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 560px;
+    left: 330px;
+    width: 630px;
+}
