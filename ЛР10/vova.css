@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body{
+    background-color: #98AE90;
+}
+.name{
+    font-family: roboto slab;
+    font-size: 40px;
+    text-align: center;
+}
+.inst{
+    width: 500px;
+    height: 650px;
+    position: relative;
+    top: 20px;
+    left: 32%;
+}
+.desc{
+    font-family: roboto slab;
+    font-size: 30px;
+    text-align: center;
+    width: 800px;
+    position: relative;
+    top: 50px;
+    left: 20%;
+}
+
+.ph2, .ph3{
+    width: 400px;
+    height: 700px;
+}
+.ph2{
+    position: relative;
+    top: 50px;
+    left: 15%;
+}
+.ph3{
+    position: relative;
+    top: 50px;
+    left: 25%;
+}
+.desc1{
+    font-family: roboto slab;
+    font-size: 30px;
+    text-align: center;
+    width: 900px;
+    position: relative;
+    top: 50px;
+    left: 17%;
+}
+.ph4{
+    position: relative;
+    top: 50px;
+    left: 15%;
+}
+
+
+.desc2{
+    font-family: roboto slab;
+    font-size: 30px;
+    text-align: center;
+    width: 900px;
+    position: relative;
+    padding: 50px;
+    top: 20px;
+    left: 15%;
+}
