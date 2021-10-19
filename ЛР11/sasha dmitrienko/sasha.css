@@ -1,0 +1,248 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #edf6f9;
+    color: #264653;
+    font-size: 14px;
+    margin: 0;
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.wrapper {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto
+}
+
+.inst-nav {
+    color: #83c5be;
+}
+
+.header {
+    background-color: #fff;
+    padding-top: inherit;
+    padding-top: 4px;
+}
+.header-top {
+    font-family: 'Marmelad', sans-serif;
+    display: flex;
+justify-content: center;
+    align-items: center;
+    padding: 15px 0 12px 0;
+}
+.logo span{
+    font-family: 'Marmelad', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+.logo-image {
+    display: flex;
+    margin-right: 20px;
+}
+
+.header-info span {
+    font-size: 16px;
+}
+
+
+.header-bottom {
+    padding: 20px 0 17px 0;
+}
+.header-bottom .nav {
+    font-size: 16px;
+    margin: 0;
+}
+.header-bottom .nav > li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.banner {  
+    display: flex;
+    flex-direction: row;
+    padding-top: 59px;
+    padding-bottom: 110px;
+    color: #264653;
+}
+.title {
+    margin-top: 80px;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 39px;
+    
+}
+.title-h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.img-banner{
+    border-radius: 20px;
+}
+
+.img-honey {
+        border-radius: 20px;
+
+}
+
+.banner-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.banner p {
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    max-width: 535px;
+}
+.honey {
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.content-honey {
+    padding-top: 40px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    align-items: flex-start;
+
+
+}
+
+.content-honey p { 
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+
+.bg-white {
+    background-color: #fff;
+}
+
+.catalog {
+    padding-top: 60px;
+    padding-bottom: 133px;
+}
+.grid {
+    display: flex;
+    justify-content: space-evenly;
+    grid-gap: 19px 30px;
+}
+
+.grid-item-catalog {
+    text-align: center;
+}
+.grid-item-catalog .bg-white {
+    padding: 23px 30px 34px 30px;
+}
+.thumb {
+    margin-bottom: 14px;
+}
+.grid-title {
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.grid-price {
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.grid-btn {
+    border-radius: 30px;
+    border: 2px solid #05044b;
+    background-color: #05044b;
+    color: #fff;
+    padding: 6px 41px;
+    text-decoration: none;
+ 
+}
+
+
+form {
+    max-width: 415px;
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+form p{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+input {
+    height: 45px;
+    width: 300px;
+    color: #3B5983;
+    border: 2px solid #E9F2FF;
+    border-radius: 5px;
+    padding-left: 25px;
+}
+
+.button {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #05044b;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid #05044b;
+    padding: 9px 47px;
+}
+
+.divider {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #405D87;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+.footer-top {
+    display: flex;
+justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 23px;
+}
+footer-info {
+    display:flex;
+    align-items: center;
+}
+.footer-info span:first-child {
+    font-size: 14px;
+    margin-left: 0;
+}
+.footer-info span {
+    font-size: 16px;
+    margin-left: 103px;
+}
+
