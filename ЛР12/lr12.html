@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .parent{
+            background-color: gray;
+			width: 400px;
+            position: relative;
+        }
+		.child{
+            height: 50px;
+        }
+        .child-one, .child-one1, .child-one2, .child-one3 {
+            background-color:skyblue;
+        }
+        .child-two {
+            background-color: darkseagreen;
+        }
+        .child-three{
+            background-color: lightyellow;
+        }
+        .levo{background-color: white;
+        position: absolute;
+        
+        }
+        .pravo{background-color: black}
+        
+.child-one0 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+        .child-one1 {
+    background-color:aqua;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+        .child-one2 {
+    position: fixed;
+    top: 50px;
+    left: 500px;
+}
+        .child-one3 {
+    position:sticky;
+    top: 5px;
+    left: 5px;
+}
+        .zad{
+            position: relative;
+        }
+        .cont{
+position: relative;
+width: 700px;
+height: 90px;
+margin: 20px;
+padding: 20px;
+background-color: grey;
+left:150px;
+top: 100px;
+}
+.block-left{
+position: absolute;
+background-color: skyblue;
+width: 200px;
+top: 30px;
+right: 20px;
+height: 50px;
+}
+.block-right{
+position: absolute;
+background: green;
+width: 200px;
+top: 30px;
+left: 20px;
+height: 50px;
+}
+    </style>
+</head>
+<body>
+    <h3>Задание 1, 2</h3>
+    <div class="parent">
+        Абсолютное позиционирование
+        <div class="child child-one0">1</div>
+        <div class="child child-two">2</div>
+        <div class="child child-three">3</div>
+    </div>
+    <div class="parent">
+        Относительное позиционирование
+        <div class="child child-one1">1</div>
+        <div class="child child-two">2</div>
+        <div class="child child-three">3</div>
+    </div>
+     <div class="parent">
+        Статичное позиционирование
+        <div class="child child-one">1</div>
+        <div class="child child-two">2</div>
+        <div class="child child-three">3</div>
+    </div>
+    <div class="parent">
+        <div class="child child-one2">Фиксированное позиционирование!</div>
+        
+    </div>
+    <div class="parent">
+        Липкое позиционирование
+        <div class="child child-one3">1</div>
+        <div class="child child-two">2</div>
+        <div class="child child-three">3</div>
+    </div>
+    
+    <h3>Задание 3</h3>
+    <div class="zad">
+    <div class="levo"></div>
+        <div class="pravo"></div>
+    </div>
+    <div class="cont">
+<div class="block-left">
+</div>
+<div class="block-right">
+</div>
+</div>
+</body>
+</html>
