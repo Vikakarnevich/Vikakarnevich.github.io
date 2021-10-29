@@ -1,0 +1,65 @@
+body{
+    background-color: lavenderblush;
+}
+p{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.au, .bsu, .bsuir{
+    background-color: white;
+    height: 470px;
+}
+.bsu{
+    position: relative;
+    top:50px;
+}
+.bsuir{
+    position: relative;
+    top: 100px;
+}
+.name{
+    text-align: center;
+    font-size: 24px;
+}
+.img{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+.vuz{
+    font-size: 22px;
+    text-transform: uppercase;
+    width: 500px;
+    position: relative;
+    top: -380px;
+    left: 730px;
+}
+.inf{
+    font-size: 20px;
+    width: 600px;
+    position: relative;
+    top: -370px;
+    left: 730px;
+}
+.rector{
+    font-size: 20px;
+    position: relative;
+    top: -340px;
+    left: 730px;
+}
+
+/*  
+        <div class="bsu">
+    <img class="img" src="bsu.jpeg">
+            <p class="vuz">Белорусский государственный университет</p>
+            <p class="inf">Открыт 30 октября 1921 года. В советское время назывался «Белорусский университет им. В. И. Ленина».</p>
+            <p class="rector">Король Андрей Дмитриевчи</p>
+        </div>
+        
+            <div class="bsuir">
+    <img class="img" src="bsuir.jpeg">
+            <p class="vuz">Белорусский государственный университет информатики и радиоэлектроники</p>
+            <p class="inf">ведущее высшее учебное заведение Республики Беларусь в области информационных технологий, радиотехники, электроники и телекоммуникаций, расположенное в Минске. </p>
+            <p class="rector">Богуш Вадим Анатольевич</p>
+        </div>*/
