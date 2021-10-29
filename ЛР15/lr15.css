@@ -1,0 +1,51 @@
+
+p{font-size: 18px;}
+.letter1{
+    font-family: 'Lora', serif;
+    letter-spacing: 10px;
+}
+.letter2{
+    font-family: 'Lora', serif;
+    width: 190px;
+    line-height: 20px;
+}
+.tabl{
+    font-family: 'Lora', serif;
+}
+.rounded {
+counter-reset: li; 
+list-style: none; 
+font: 14px 'Lora', serif;
+padding: 0;
+text-shadow: 0 1px 0 black;
+}
+.rounded a {
+position: relative;
+display: block;
+padding: .4em .4em .4em 2em;
+margin: 10px 30px;
+background: lightblue;
+color: #444;
+text-decoration: none;
+border-radius: .3em;
+
+    
+}
+
+.rounded a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: lightpink;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
+}
