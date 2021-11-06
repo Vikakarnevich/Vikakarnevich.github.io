@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+padding: 0;
+}
+body {
+    background-color: lightsteelblue;
+}
+#container{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.class{
+        font-style: italic;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+div{
+    font-size: 26px;
+}
+*[lang^=en]{
+    color:green;
+}
+*.warning {
+    color:red;
+}
+*#maincontent {
+    border: 1px solid blue;
+}
+*#maincontent, p.warning {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.hover{
+    background-color: pink;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 400px;
+    text-align: center;
+    transition: 1s;
+}
+.hover:hover{
+    transform: scale(1.2);
+}
+
+ p::first-letter {
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 2em; 
+    color: blue; 
