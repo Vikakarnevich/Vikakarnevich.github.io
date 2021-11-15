@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+
+        <title>ЛР19</title>
+    </head>
+   <script type="text/javascript">
+alert('Здравствуйте, Владимир Вилентьевич! \n *код расположен в теге script*');
+    </script>
+    
+    <body>
+        <h3>Задача 1</h3>
+        <h4>Для приведенной ниже кнопки код расположен внутри тега</h4>
+        <a href="delete.php" onclick="return confirm('Вы уверены?');">Удалить </a>
+        <h3>Задача 2</h3>
+        <h5>Часть 1</h5>
+        <p>Можно посмотреть через консоль или на скриншоте</p>
+        <img src="screen.png">
+        <script>
+        let arr = [18, 'Вика', true]
+        console.log(arr[0])
+        console.log(arr[1])
+            if (arr[2] = true) 
+            {
+                arr[2] = false
+            }
+        console.log(arr[2])
+            let newLength = arr.unshift('Привет!') // удаление в начало массива
+             console.log(arr)   
+            var newLength1 = arr.push('Карневич');
+            console.log(arr) 
+         console.log(arr.length)   
+        </script>
+        
+        
+        
+        
+        <h5>Часть 2</h5>
+        <p>До преобразования:</p>
+        <p>Every man in the world! Every woman on earth!</p>
+        <p>После преобразования:</p>
+         <script>
+   const str = 'Every man in the world! Every woman on earth!'
+const newstr = str.replace(/\bman|woman\b/g, 'person')
+document.write(newstr)
+        </script>
+    </body>
+</html>
