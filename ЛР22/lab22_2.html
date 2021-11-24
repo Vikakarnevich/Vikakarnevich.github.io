@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8"> 
+        <title>Викочка</title>
+    </head>
+<body>
+    <h2>Задание 3</h2>
+    <p>Полученный массив:</p>
+     <script>
+        var mas = [],
+            masElem,
+            i,
+            i_plus = 1;
+        for(i = 0; i <= 4; i += 1) {
+            masElem = prompt('Введите ' + i_plus + ' элемент масива');
+            mas.push(masElem);
+            i_plus += 1;
+        }
+        document.write(mas);
+    </script>
+  
+    <h2>Задание 4</h2>
+    <p>Вывод наименьшего числа среди чисел 10, 20</p>
+    <script>
+   document.write(Math.min(10, 20));
+    </script>
+      <h2>Задание 5</h2>
+    <p>Возведение числа 2 в 3 степень:</p>
+    <script>
+    function pow(x, n) {
+  if (n == 1) {
+    return x;
+  } else {
+    return x * pow(x, n - 1);
+  }
+}
+document.write( pow(2, 3) );
+    </script>
+    </body>
+</html>
