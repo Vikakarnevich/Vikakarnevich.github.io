@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8"> 
+        <title>Викочка</title>
+    </head>
+<body onLoad = 'startTime()'>
+     <h3>Задание 1</h3>
+    <p>Исходная запись!</p>
+     <script>
+      alert("Изменение записи");
+      document.open();
+      document.write("<h1>Измененная запись!</h1>");
+      document.close();
+   </script>
+    <h3>Задание 2</h3>
+    <span id="foo">При нажатии на данное предложение появится окно, сделанное с помощью метода OnClick</span>
+    <script>
+     
+        var p = document.getElementById("foo")
+        p.onclick = showAlert
+      function showAlert(event) {
+        alert("Вы выполнили действие!")
+      }
+    </script>
+    <h3>Задание 3. При нажатии на ссылку появляется окно предупреждения</h3>
+    <script type="text/javascript">
+function AlertIt() {
+var answer = confirm ("Please click on OK to continue.")
+if (answer)
+window.location="#";
+}
+</script>
+
+<a href="javascript:AlertIt();">Нажмите на ссылку</a>
+    
+    <h3>Задание 4</h3>
+    <form name="my">
+<input name="one" >
+<input type="submit" name="submit">
+</form>
+</body>
+</html>
+    <script type="text/javascript">
+let forma=document.forms[0];
+forma.onsubmit = function(event){
+let form = document.forms.my;
+let elem = form.elements.one;
+}
+</script>
+    
+    
+    
+    
+    
+      <h3>Задание 5. Использование метода Click</h3>
+    
+    <input id="elem" type="button" value="Нажми меня"/>
+
+<script>
+
+  elem.onclick = () => alert("Привет");
+  
+</script>
+    
+ <h3>Задание 6</h3>
+
+<span id="timer"></span>
+<script>
+setInterval (
+   function ()
+   {
+   var tim = new Date (); with (tim)
+   document.getElementById ('timer').innerHTML =
+   'Текущее время: ' + [getHours (), getMinutes (), getSeconds ()].join (':');
+   },
+1000);
+</script>
+
+
+    
+    <h3>Задание 7. Конкатенация 3 строк</h3>
+<p id="demo"></p>
+
+<script>
+const arr1 = ["Привет"];
+const arr2 = ["Меня зовут"];
+const arr3 = ["Вика!"];
+
+const children = arr1.concat(arr2,arr3); 
+document.getElementById("demo").innerHTML = children;
+</script>
+    </body>
+</html>
