@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+}
+
+.name{
+    font-family: JOURNALISM;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 30px;
+    color: #671212;
+}
+@-webkit-keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+@keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+.name {
+  color: #671212;
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  -webkit-animation: pulsate 1.2s linear infinite;
+  animation: pulsate 1.2s linear infinite;
+}
+.border{
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    z-index: -10;
+}
+.photo{
+    margin: -40px 0 0 490px;
+}
+.quote{
+    font-family: JOURNALISM;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+
+.name2, .name3, .name4{
+    font-family: JOURNALISM;
+    font-size: 50px;
+    color: white;
+    margin: 170px 0 0 140px;
+}
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.card1{
+    width: 70%;
+    height: 280px;
+    background: #671212;
+    border-radius: 40px;
+    margin: 50px 0 0 200px;
+}
+.card_name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 30px 0 0 40px;
+}
+.card_info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin: 30px 30px 0 40px;
+}
+.group{
+    margin: 70px 0 0 250px;
+}
+
+
+.opis{
+    display: flex;
+}
+.line{
+    width: 3px;
+    height: 450px;
+    background: #671212;
+    margin: 50px 0 0 200px;
+}
+.text{
+    display: flex;
+    flex-direction: column;;
+     font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin: 40px 0 0 40px;
+}
+.end{
+    width: 100%;
+    height: 200px;
+    background: #671212;
+}
+.finish{
+    margin: 30px 0 0 360px;
+}
