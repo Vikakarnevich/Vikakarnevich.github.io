@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEE4DA;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main_text{
+  font-family: JOURNALISM;
+    font-size: 100px;
+    text-align: center;
+    margin: 30px;
+}
+.main_text2{
+     font-family: JOURNALISM;
+    font-size: 40px;
+    text-align: center;
+    margin: -20px;
+}
+.oval{
+    width: 100%;
+    height: 700px;
+     border-radius: 50%;
+    background: #A12A2A;
+    position: absolute;
+    top: 500px;
+    z-index: -1;
+    
+}
+.text{
+     font-family: JOURNALISM;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.text1{
+    margin-top: -100px;
+     font-family: JOURNALISM;
+    font-size: 85px;
+    text-align: center;
+   color: green;
+   text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
+color: #A12A2A;
+}
+
+.part2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+.name_part2, .name_part3{
+    font-family: JOURNALISM;
+    font-size: 50px;
+    margin: 200px 0 0 140px ;
+}
+.line{
+    width: 10px;
+    height: 200px;
+    background: #A12A2A;
+    margin: 50px 0 0 140px;
+}
+.text2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    width: 60%;
+    margin: 70px 0 0 70px;
+}
+.part3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part3_img{
+    margin-top: 70px;
+    position: relative;
+
+    margin-top: 70px;
+    z-index: -100;
+    
+}
+.text11{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  text-align: right;
+    width: 13%;
+   position: relative;
+    top: -1400px;
+    left: 25vw;
+    
+}
+.text12{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  text-align: left;
+    width: 13%;
+   position: relative;
+    top: -1347px;
+    left: 55vw;
+    
+}
+.text13{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  text-align: right;
+    width: 13%;
+   position: relative;
+    top: -1275px;
+    left: 25vw;
+    
+}
+.text14{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  text-align: left;
+    width: 20%;
+   position: relative;
+    top: -1200px;
+    left: 55vw;
+    
+}
+.text15{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  text-align: right;
+    width: 13%;
+   position: relative;
+    top: -1098px;
+    left: 25vw;
+    
+}
+
+.text16{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  text-align: left;
+    width: 20%;
+   position: relative;
+    top: -1035px;
+    left: 55vw;
+    
+}
+.text17{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  text-align: right;
+    width: 20%;
+   position: relative;
+    top: -950px;
+    left: 20vw;
+    
+}
+.text18{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  text-align: left;
+    width: 20%;
+   position: relative;
+    top: -870px;
+    left: 55vw;
+    
+}
+.text19{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+  text-align: right;
+    width: 25%;
+   position: relative;
+    top: -750px;
+    left: 15vw;
+    
+}
+.name_part4{
+    font-family: JOURNALISM;
+    font-size: 50px;
+    margin: -550px 0 0 140px ;
+}
+
+.rita{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+.rita_img{
+    margin: 70px 0 0 140px;
+}
+.rita2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.name{
+    font-family: JOURNALISM;
+    font-size: 40px;
+    margin: 70px 0 0 100px;
+}
+.inst{
+    font-family: JOURNALISM;
+    font-size: 30px;
+    margin: 5px 0 0 100px;
+}
+.info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    width: 70%;
+    margin: 80px 140px 0 100px;
+}
+
+
+.end{
+    width: 100%;
+    height: 80px;
+    margin: 100px 0 0 0;
+    background: #A12A2A;
+}
+.end_text{
+     font-family: JOURNALISM;
+    font-size: 90px;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    color: white;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+
+
+
+
+
