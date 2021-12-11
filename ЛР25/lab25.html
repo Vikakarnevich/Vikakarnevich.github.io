@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <link rel="stylesheet" href="stylist.css">  
+        <title>ЛР25</title>
+    </head>
+    <body>
+
+        <h3>Определение типа браузера/ использование window.alert</h3>
+        <form>
+	<input type="button" value="Tип навигатора" 
+	    onclick="window.alert(window.navigator.userAgent); ">
+</form>
+    
+        <h3>Использование window.confirm</h3>
+        <form>
+	<input type="button" value="Вы сдали все лабы по вебу? " 
+		onclick="
+                if (window.confirm('Знаю все!') == true) {
+                    document.forms[0].elements[0].value='Да';
+                } else {
+                    document.forms[0].elements[0].value='Нет';
+                }
+		    ">
+</form>
+
+        <h3>Использование window.prompt</h3>
+    
+    <form>
+	<input type="button" value="Открыть окно ввода" 
+		onclick="document.forms[0].elements[1].value=window.prompt('Введите сообщение'); " >
+	<input size="30" >
+</form>
+
+        <h3>Использование window.open</h3>
+  <script>
+//создать переменную, в которой будем хранить ссылку на объект window открытого окна
+var myWindow;
+function myWindowOpen {
+  myWindow = window.open("https://www.google.com/webhp?hl=ru&sa=X&ved=0ahUKEwjmpoD3jtz0AhVRAxAIHfiaBi0QPAgI, “myWindow", "width=250, height=250");
+}
+function myWindowClose {
+  if (myWindow) {
+    myWindow.close();
+    myWindow = null;
+  }
+}
+</script>
+
+<button onClick="myWindowOpen()">Oткрыть oкно</button>
+
+        <h3>Использование window.focus</h3>
+        <form>
+        	<input type="button" value="myfocus(1)" onclick="myfocus(1);" /><br />
+	<input type="button" value="myfocus(2)" onclick="myfocus(2);" /><br />
+	<input type="button" value="myfocus(3)" onclick="myfocus(3);" /><br />
+</form>
+
+        <script>
+        
+        function myfocus(a)
+{
+	id = window.open("", "example", "scrollbars, width=300, height=200");
+	//открываем окно и заводим переменную с указателем на него 
+	//если окно с таким именем существует, то новое окно не создается, 
+	//а открывается поток для записи в окно с этим именем
+	if (a == 1) {
+	    id.document.open();
+	    //открываем поток ввода в уже созданное окно
+	    id.document.write("<center>Открыли окно в первый раз");
+	    //Пишем в этот поток
+	}
+	if (a == 2) {
+        id.document.open();
+        id.document.write("<center>Открыли окно во второй раз");
+    }
+    if (a == 3) {
+	    id.focus();
+	    //передаем фокус, затем выполняем те же действия, что и в
+	    //предыдущем случае
+	    id.document.open();
+	    id.document.write("<center>Открыли окно в третий раз");
+    }
+    id.document.write("<form><input type='button' onclick='window.close(); 'value='Закрыть oкнo'/></<center>");
+    id.document.close();
+}
+</script>
+
+        <h3>Использование window.setTimeout</h3>
+        <form name="c">
+	Текущее время: 
+	<input name="f" size="8" />
+	<input type="button" value="Start/Stop" onclick="flagss(); myclock(); " />
+</form>
+
+        
+        <script language="JavaScript" type="text/JavaScript">
+    var flag = 0;
+    var idp = null;
+    function myclock()
+    {
+	    if(flag == 1)
+		    d = new Date();
+	    window.document.c.f.value =
+	    d.getHours() + ": " + d.getMinutes() + ": " + d.getSeconds();
+        idp=setTimeout("myclock(); ", 500);
+    }
+
+    function flagss()
+    {
+	    if(flag == 0) flag = 1; else flag = 0;
+    }
+
+</script>
+
+        
+         <h3>Использование window.clearTimeout</h3>
+        <form name="c1">
+Текущее время: 
+	<input name="f1" size="8" />
+	<input type="button" value="Start" onclick="if(idp1 == null) startX(); " />
+	<input type="button" value="Stop" onclick="if(idp1 != null) stop(); " />
+</form>
+
+        <script language="JavaScript" type="text/JavaScript">
+    var idp1 = null;
+    function startX() {
+        d = new Date();
+        window.document.c1.f1.value =
+	    d.getHours() + ": " + d.getMinutes() + ": " + d.getSeconds();
+        idp1 = setTimeout("startX(); ", 500);
+    }
+
+    function stop() {
+        clearTimeout(idp1);
+        idp1 = null;
+    }
+
+</script>
+<a href="lab25_dop.html">Задание 3. Фреймы</a>
+        <br><br>
+        <h3>Вывод вашего имени</h3>
+           <script>
+        let name = prompt("Как вас зовут?")
+ 
+        document.write(`Здравствуйте, ${name}!`);
+        
+    </script>
+    </body>
+</html>
